@@ -44,7 +44,7 @@ FAQ
 License
 -------
 
-MIT: http://mattn.mit-license.org/2012
+  MIT
 
 Author
 ------
