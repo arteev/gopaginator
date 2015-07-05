@@ -1,7 +1,7 @@
 gopaginator
 ==========
 
-
+[![Build Status](https://travis-ci.org/Arteev/gopaginator.svg)](https://travis-ci.org/Arteev/gopaginator)
 Description
 -----------
 
