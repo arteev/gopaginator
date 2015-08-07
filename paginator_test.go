@@ -111,6 +111,19 @@ func TestFormatUrl(t *testing.T) {
 		t.Errorf("Expected %q, got %q",must, s)
 	}
 
+
+	s = formatUrl("fail",0,10,templateUrl);
+	must = ""
+	if s != must{
+		t.Errorf("Expected %q, got %q",must, s)
+	}
+
+
+	s = formatUrl("0",0,1,templateUrl);
+	must = fmt.Sprintf(templateUrl,"1")
+	if s != must{
+		t.Errorf("Expected %q, got %q",must, s)
+	}
 }
 
 func TestEmptyOrIncorrect(t *testing.T) {

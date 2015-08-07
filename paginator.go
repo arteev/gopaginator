@@ -57,8 +57,6 @@ func formatUrl(pageName string, currentPage int, total int, templateUrl string) 
 		if page <= 0 {
 			if total > 0 {
 				return fmt.Sprintf(templateUrl, "1")
-			} else {
-				return ""
 			}
 		}
 		if page > total {
@@ -66,7 +64,6 @@ func formatUrl(pageName string, currentPage int, total int, templateUrl string) 
 		}
 		return fmt.Sprintf(templateUrl, pageName)
 	}
-	return ""
 }
 
 func PagesArray(page int, total int, templateUrl string) []*Pag {
