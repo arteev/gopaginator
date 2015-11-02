@@ -1,8 +1,8 @@
 gopaginator
 ==========
 
-[![Build Status](https://travis-ci.org/Arteev/gopaginator.svg)](https://travis-ci.org/Arteev/gopaginator)
-[![Coverage](http://gocover.io/_badge/github.com/Arteev/gopaginator)](http://gocover.io/github.com/Arteev/gopaginator) 
+[![Build Status](https://travis-ci.org/arteev/gopaginator.svg)](https://travis-ci.org/arteev/gopaginator)
+[![Coverage](http://gocover.io/_badge/github.com/arteev/gopaginator)](http://gocover.io/github.com/arteev/gopaginator) 
 Description
 -----------
 
